@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  outline: none;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 800px;
+  margin: 100px auto;
+}
+
+.main__header {
+  text-align: center;
+}
+.main__header h1 {
+  color: green;
+}
+.main__header input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.main__lists {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.main__list {
+  margin-bottom: 30px;
+  padding-right: 20px;
+  width: 220px;
+}
+.main__list h2 {
+  font-size: 20px;
+}
+.main__list p {
+  margin-top: 10px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.articles h1 {
+  text-align: center;
+  letter-spacing: -0.016em;
+  line-height: 40px;
+  font-size: 32px;
+  font-weight: 700;
+}
+.articles p {
+  letter-spacing: -0.003em;
+  line-height: 32px;
+  margin-top: 2em;
+  font-size: 20px;
+  margin-bottom: -0.46em;
+  word-break: break-word;
+  color: rgb(41, 41, 41);
+  font-weight: 400;
+}
+.articles a {
+  text-decoration: underline;
+  color: inherit;
+  letter-spacing: -0.003em;
+}
+.articles em {
+  font-style: italic;
+}
+.articles mark {
+  color: currentcolor;
+  background-color: rgba(26, 137, 23, 0.1);
+  cursor: pointer;
+}
+.articles blockquote {
+  margin-left: -20px;
+  padding-left: 23px;
+  box-shadow: rgb(41, 41, 41) 3px 0px 0px 0px inset;
+}
+.articles blockquote p {
+  font-size: 21px;
+  letter-spacing: -0.003em;
+  line-height: 32px;
+  margin-top: 2em;
+  font-style: italic;
+  margin-bottom: -0.46em;
+  word-break: break-word;
+}
+
+/*# sourceMappingURL=style.css.map */
